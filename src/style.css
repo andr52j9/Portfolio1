@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h6 {
+  color: black;
+  -webkit-text-fill-color: #e3d2c1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #445add;
+}
+
+/* table,
+td,
+th {
+  border: 1px solid #333;
+} */
+
+thead,
+.tr1 {
+  background-color: #f8e4e3;
+  color: #000;
+}
+
+.show {
+  display: block;
+  height: 100vh;
+}
